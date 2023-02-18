@@ -54,7 +54,7 @@
 
   </head>
   <body>
- <script src="./count.js"></script>
+ <script src="js/count.js"></script>
 <!--     <h1>TestApp</h1>         -->
 <!--     <img src="logo.svg">     -->
 
