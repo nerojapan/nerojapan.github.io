@@ -38,7 +38,7 @@ function updateFormula()
 
 function updateAnswer() 
 {
-  var str = "?????"
+  var str = "&nbsp;&nbsp;"+"?????"
 //  for (let i = 0; i < arrayTest2.length; i++){
       document.getElementById(arrayTest2[0][1]).innerHTML = str;
 //  }
@@ -84,14 +84,14 @@ function get_test2(index)
 
 
 
-    return arrayTest3[num1][0];
+    return "&nbsp;&nbsp;"+arrayTest3[num1][0];
 }
 
 // 指定されたNoの答えを、問題作成時に作った配列から取得
 function get_ans2(num){
 //    var str = `x = ${ arrayTest[num]}`;
 	
-	return arrayTest3[num1][1];
+	return "&nbsp;&nbsp;"+arrayTest3[num1][1];
 }
 
 
