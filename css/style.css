@@ -39,7 +39,7 @@ border-radius: 40px 40px 40px 40px;*/
 
 #formula{
   text-align:left;
-  font-size: 5rem; /* レスポンシブサイズ */
+  font-size: 4rem; /* レスポンシブサイズ */
   color: gray;  
   line-height:1;
   margin:0;
@@ -54,10 +54,10 @@ border-radius: 40px 40px 40px 40px;*/
 
 #answer{
   text-align:left;
-  font-size: 5rem; /* レスポンシブサイズ */
+  font-size: 4rem; /* レスポンシブサイズ */
   color: gray;  
   line-height:1;
-  margin-left:0;
+  margin:0;
   font-family:"Comic Sans MS";
   font-style: italic;
   font-variant-numeric:tabular-nums;/* 等幅.効果なし */
