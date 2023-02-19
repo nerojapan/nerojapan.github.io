@@ -32,22 +32,29 @@ body
 border-radius: 40px 40px 40px 40px;*/
 }
 
+#word{
+  background-color: #e8f8f8;
+  border-radius: 40px 40px 40px 40px;
+}
+
 #formula{
   text-align:left;
-  font-size: 3rem; /* レスポンシブサイズ */
+  font-size: 5rem; /* レスポンシブサイズ */
   color: gray;  
   line-height:1;
   margin:0;
   font-family:"Comic Sans MS";
   font-style: italic;
   font-variant-numeric:tabular-nums;/* 等幅.効果なし */
-  float: left;
+/*  float: left;*/
   margin-bottom: 1rem;
+/*  background-color: #e8f8f8;*/
+/*  border-radius: 40px 40px 40px 40px;*/
 }
 
 #answer{
   text-align:left;
-  font-size: 3rem; /* レスポンシブサイズ */
+  font-size: 5rem; /* レスポンシブサイズ */
   color: gray;  
   line-height:1;
   margin-left:0;
@@ -55,10 +62,10 @@ border-radius: 40px 40px 40px 40px;*/
   font-style: italic;
   font-variant-numeric:tabular-nums;/* 等幅.効果なし */
   style="text-align:right"/* なんでか順番変えるとダメ */
-  float: left;
+/*  float: left;*/
   cursor: pointer;
-  background-color: #e8f8f8;
-  border-radius: 40px 40px 40px 40px;
+/*  background-color: #e8f8f8;*/
+/*  border-radius: 40px 40px 40px 40px;*/
 }
 
 
