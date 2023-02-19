@@ -34,6 +34,9 @@ var arrayTest3 = [
 [ "あの男の人たちは何ですか？ 警官です。" , "What are those men? They are policemen." ],
 [ "あの女性たちは何ですか？ 秘書です。" , "What are those women? They are secretaries." ],
 [ "あの人たちは何ですか？ 弁護士です。" , "What are those people? They are lawyers." ],
+
+
+
 ];
 
 
