@@ -16,6 +16,21 @@ var arrayTest2 = [
 ];
 
 
+var arrayTest3 = [
+                   [ "これはリンゴです.....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", "This is an apple." ],
+                   [ "彼は僕の兄です", "He is my brother." ],
+                   [ "これは何ですか？", "What is this?" ],
+                   [ "fm_no3", "ans_no3" ],
+                   [ "fm_no4", "ans_no4" ],
+                   [ "fm_no5", "ans_no5" ],
+                   [ "fm_no6", "ans_no6" ],
+                   [ "fm_no7", "ans_no7" ],
+                   [ "fm_no8", "ans_no8" ],
+                   [ "fm_no9", "ans_no9" ],
+];
+
+
+
 // ------------------------------------------------------------------------
 //    描画更新系処理
 // ------------------------------------------------------------------------
@@ -29,13 +44,13 @@ function init()
 function updateFormula() 
 {
   for (let i = 0; i < arrayTest2.length; i++){
-      document.getElementById(arrayTest2[i][0]).innerHTML = get_test(i);
+      document.getElementById(arrayTest2[i][0]).innerHTML = get_test2(i);
   }
 }
 
 function updateAnswer() 
 {
-  var str = "x = ?"
+  var str = "?????"
   for (let i = 0; i < arrayTest2.length; i++){
       document.getElementById(arrayTest2[i][1]).innerHTML = str;
   }
@@ -44,6 +59,47 @@ function updateAnswer()
 // ------------------------------------------------------------------------
 //    内部処理
 // ------------------------------------------------------------------------
+
+function get_test2(index) 
+{
+//    var num1=0
+//    var num2=0
+//    var num3 = 0;
+//
+//    var min = Math.ceil(-9);
+//    var max = Math.floor(9);
+//  
+//    while (num1==0) {
+//        num1= Math.floor(Math.random() * (max - min) + min);
+//    }
+//
+//    min = 1;
+//
+//    while (num2==0 || Math.abs(num2)==Math.abs(num1)) {
+//        num2= Math.floor(Math.random() * (max - min) + min);
+//    }
+//    num3 = Math.floor(Math.random() * (max - min) + min);
+//    num4 = num1*num3 + num2*num3
+//
+//    var str;
+//    if (num1>=0) {
+//        str = "&nbsp;&nbsp;" + `${num1}x + ${num2}x = ${num4}`+"&nbsp;&nbsp;&nbsp;";
+//    } else {
+//        str = "&nbsp;" + `${num1}x + ${num2}x = ${num4}`+"&nbsp;&nbsp;&nbsp;";
+//
+//    }
+//    arrayTest[index]=num3;
+
+    return arrayTest3[index][0];
+}
+
+// 指定されたNoの答えを、問題作成時に作った配列から取得
+function get_ans2(num){
+//    var str = `x = ${ arrayTest[num]}`;
+	
+	return arrayTest3[num][1];
+}
+
 
 // 問題と答え(xの値)を配列に設定
 function get_test(index) 
@@ -97,7 +153,7 @@ function onClickNext() {
 
 function onClickAns(textNo) {
   var id = arrayTest2[textNo][1]
-  document.getElementById(id).innerHTML = get_ans(textNo);
+  document.getElementById(id).innerHTML = get_ans2(textNo);
 };
 
 
