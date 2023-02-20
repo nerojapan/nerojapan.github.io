@@ -17,7 +17,7 @@ var arrayTest2 = [
 
 
 let num1 = 0;
-
+let status = 0;
 
 // ------------------------------------------------------------------------
 //    描画更新系処理
@@ -55,7 +55,13 @@ function get_test2(index)
 //    var num3 = 0;
 //
     var min = 0;
-    var max = arrayTest3.length;
+    var max = 0;
+  if ( status == 0 ) {
+    max = arrayTest3.length;
+  } else {
+    max = arrayTest4.length;
+	}
+
 //  
 //    while (num1==0) {
         num1= Math.floor(Math.random() * (max - min) + min);
@@ -83,58 +89,25 @@ function get_test2(index)
 	// 
 
 
-
+  if ( status == 0 ) {
     return "&nbsp;&nbsp;"+arrayTest3[num1][0];
+  } else {
+    return "&nbsp;&nbsp;"+arrayTest4[num1][0];
+	}
+
 }
 
 // 指定されたNoの答えを、問題作成時に作った配列から取得
 function get_ans2(num){
 //    var str = `x = ${ arrayTest[num]}`;
-	
+  if ( status == 0 ) {
 	return "&nbsp;&nbsp;"+arrayTest3[num1][1];
+  } else {
+	return "&nbsp;&nbsp;"+arrayTest4[num1][1];
+	}
+	
 }
 
-
-// 問題と答え(xの値)を配列に設定
-function get_test(index) 
-{
-    var num1=0
-    var num2=0
-    var num3 = 0;
-
-    var min = Math.ceil(-9);
-    var max = Math.floor(9);
-  
-    while (num1==0) {
-        num1= Math.floor(Math.random() * (max - min) + min);
-    }
-
-    min = 1;
-
-    while (num2==0 || Math.abs(num2)==Math.abs(num1)) {
-        num2= Math.floor(Math.random() * (max - min) + min);
-    }
-    num3 = Math.floor(Math.random() * (max - min) + min);
-    num4 = num1*num3 + num2*num3
-
-    var str;
-    if (num1>=0) {
-        str = "&nbsp;&nbsp;" + `${num1}x + ${num2}x = ${num4}`+"&nbsp;&nbsp;&nbsp;";
-    } else {
-        str = "&nbsp;" + `${num1}x + ${num2}x = ${num4}`+"&nbsp;&nbsp;&nbsp;";
-
-    }
-    arrayTest[index]=num3;
-
-    return str
-}
-
-
-// 指定されたNoの答えを、問題作成時に作った配列から取得
-function get_ans(num){
-    var str = `x = ${ arrayTest[num]}`;
-	return str
-}
 
 
 // ------------------------------------------------------------------------
@@ -142,8 +115,19 @@ function get_ans(num){
 // ------------------------------------------------------------------------
 function onClickNext() {
   init();
-};
+}
 
+
+function onClickChat() {
+  if ( status == 0 ) {
+		status = 1;
+		document.getElementById("chat").innerHTML = "&nbsp;Word&nbsp;";
+  }else {
+		status = 0;
+		document.getElementById("chat").innerHTML = "&nbsp;Chat&nbsp;";
+	}
+	init();
+}
 
 function onClickAns(textNo) {
   var id = arrayTest2[textNo][1]

@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- JavaScript読み込み -->
 <!--     <script src="./clock.js"></script> -->
+    <script src="./word.js"></script>
     <script src="./calc.js"></script>
 
 <style type="text/css">
@@ -90,6 +91,12 @@
     <!-- ボタン -->
     <div id="next" onclick="onClickNext()">&nbsp;Next&nbsp; </div>
     <p></p>
+
+    <p></p>
+    <!-- ボタン -->
+    <div id="next" onclick="onClickChat()">&nbsp;Chat&nbsp; </div>
+    <p></p>
+
     <div class="wrapper">
         <div id="countDisplay" class="count-display">0</div>
         <div class="btns">

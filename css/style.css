@@ -73,5 +73,18 @@ p {
   margin-bottom: 100px;
 }
 
+#chat{
+  display:inline-block;
+  text-align:center;
+  color: red;  display: block;
+  cursor: pointer;
+/*  border: 5px solid #232323; */
+  float:left;
+  margin-right: 5px;
+  font-family:"Comic Sans MS";
+  font-size: 6rem; /* レスポンシブサイズ */
+/*background-color: #c4e6ee;
+border-radius: 40px 40px 40px 40px;*/
+}
 
 
