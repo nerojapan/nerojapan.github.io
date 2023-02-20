@@ -94,7 +94,7 @@
 
     <p></p>
     <!-- ボタン -->
-    <div id="next" onclick="onClickChat()">&nbsp;Chat&nbsp; </div>
+    <div id="chat" onclick="onClickChat()">&nbsp;Chat&nbsp; </div>
     <p></p>
 
     <div class="wrapper">
