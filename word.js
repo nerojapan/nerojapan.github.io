@@ -43,13 +43,20 @@ var arrayTest3 = [
 
 
 var arrayTest4 = [
-
-[ "Section/Department &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Excuse me,where is the dairy section?" ],
-[ "Changing rooms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I can't find the changing rooms." ],
-[ "Cashier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I asked the cashier if I could use my coupon." ],
-[ "Wallet/Purse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I lost my wallet on the train last week." ],
-[ "Cash&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Cash or credit?" ],
-[ "Refund&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Can I get refund on this shirt? There is a hole in it."  ],
+// 2023 feb week3
+//	[ "Section/Department &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Excuse me,where is the dairy section?" ],
+//	[ "Changing rooms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I can't find the changing rooms." ],
+//	[ "Cashier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I asked the cashier if I could use my coupon." ],
+//	[ "Wallet/Purse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I lost my wallet on the train last week." ],
+//	[ "Cash&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Cash or credit?" ],
+//	[ "Refund&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Can I get refund on this shirt? There is a hole in it."  ],
+// 2023 feb week4
+	[ "Receipt  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Do you have your receipt? (av-your-re-seat)"  ],
+	[ "Tag      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I immediately took the tags off my new clothes."  ],
+	[ "Barcode  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Please scan the barcode on the back of the packaging. (onda-bak-uv-da)"  ],
+	[ "Sale     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Socks were on sale at the mall so I bought ten pairs. (sel at-da molsoai-bot)"  ],
+	[ "Discount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "If you are a member, you can get a ten percent discount. (If-yuare / yu can-geda)"  ],
+	[ "Value    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "This hairdryer is good value."  ],
 
 ];
 
