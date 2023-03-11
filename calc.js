@@ -57,7 +57,7 @@ function get_test2(index)
     var min = 0;
     var max = 0;
   if ( status == 0 ) {
-    max = arrayTest3.length;
+    max = week2.length;
   } else {
     max = arrayTest4.length;
 	}
@@ -90,7 +90,7 @@ function get_test2(index)
 
 
   if ( status == 0 ) {
-    return "&nbsp;&nbsp;"+arrayTest3[num1][0];
+    return "&nbsp;&nbsp;"+week2[num1][0];
   } else {
     return "&nbsp;&nbsp;"+arrayTest4[num1][0];
 	}
@@ -101,7 +101,7 @@ function get_test2(index)
 function get_ans2(num){
 //    var str = `x = ${ arrayTest[num]}`;
   if ( status == 0 ) {
-	return "&nbsp;&nbsp;"+arrayTest3[num1][1];
+	return "&nbsp;&nbsp;"+week2[num1][1];
   } else {
 	return "&nbsp;&nbsp;"+arrayTest4[num1][1];
 	}
