@@ -17,6 +17,7 @@ var arrayTest2 = [
 
 
 let num1 = 0;
+let numAnswer = 0;
 let status = 0;
 
 // ------------------------------------------------------------------------
@@ -56,44 +57,30 @@ function get_test2(index)
 //
     var min = 0;
     var max = 0;
+	var retStr;
   if ( status == 0 ) {
-    max = week2.length;
+    max = week3.length;
   } else {
     max = arrayTest4.length;
 	}
 
-//  
-//    while (num1==0) {
-        num1= Math.floor(Math.random() * (max - min) + min);
-//    }
-//
-//    min = 1;
-//
-//    while (num2==0 || Math.abs(num2)==Math.abs(num1)) {
-//        num2= Math.floor(Math.random() * (max - min) + min);
-//    }
-//    num3 = Math.floor(Math.random() * (max - min) + min);
-//    num4 = num1*num3 + num2*num3
-//
-//    var str;
-//    if (num1>=0) {
-//        str = "&nbsp;&nbsp;" + `${num1}x + ${num2}x = ${num4}`+"&nbsp;&nbsp;&nbsp;";
-//    } else {
-//        str = "&nbsp;" + `${num1}x + ${num2}x = ${num4}`+"&nbsp;&nbsp;&nbsp;";
-//
-//    }
-//    arrayTest[index]=num3;
-
 	// 単語の配列のlenの中から、ランダムな数字を出す
 	// その数字を覚えておく
-	// 
+//    num1= Math.floor(Math.random() * (max - min) + min);
+
 
 
   if ( status == 0 ) {
-    return "&nbsp;&nbsp;"+week2[num1][0];
+    retStr =  "&nbsp;&nbsp;"+week3[num1][0];
   } else {
-    return "&nbsp;&nbsp;"+arrayTest4[num1][0];
+    retStr = "&nbsp;&nbsp;"+arrayTest4[num1][0];
 	}
+	numAnswer = num1;
+	num1 = num1 + 1;
+	if (num1 >= max) {
+		num1=0;
+	}
+	return retStr;
 
 }
 
@@ -101,9 +88,9 @@ function get_test2(index)
 function get_ans2(num){
 //    var str = `x = ${ arrayTest[num]}`;
   if ( status == 0 ) {
-	return "&nbsp;&nbsp;"+week2[num1][1];
+	return "&nbsp;&nbsp;"+week3[numAnswer][1];
   } else {
-	return "&nbsp;&nbsp;"+arrayTest4[num1][1];
+	return "&nbsp;&nbsp;"+arrayTest4[numAnswer][1];
 	}
 	
 }

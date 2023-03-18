@@ -72,29 +72,29 @@ var week1 = [
 
 var week2 = [
 	[ "Jealous  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I am jealous of your beautiful, long hair. (av-your)"  ],
-	[ "Annoying      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My neighbor is so annoying. He always plays loud music."  ],
-	[ "Furious  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My sister was furious when I stole her car. (i-so)"  ],
+	[ "Annoying      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My neighbor is so annoying. He always plays loud music. (i-so)"  ],
+	[ "Furious  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My sister was furious when I stole her car."  ],
 	[ "Scared/terrified     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I'm terrified of bugs. (dav)"  ],
 	[ "Surprised &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The result of my math test was surprising. I passed!!"  ],
 	[ "Hurt    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I was hurt by his words."  ],
 
 ];
 var week3 = [
-	[ "To feel  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX (XXXXXXXXXX)"  ],
-	[ "To hurt      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX."  ],
-	[ "To laugh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. (XXXXXXXXXX)"  ],
-	[ "To ask for     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. (XXXXXXXXXX)"  ],
-	[ "To fight/argue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. (XXXXXXXXXX)"  ],
-	[ "To make up    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX."  ],
+	[ "To feel  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I felt sad when my dog ran away."  ],
+	[ "To hurt      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My head hurts and I have a sore throat."  ],
+	[ "To laugh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "He always laughs at that comedian's jokes."  ],
+	[ "To ask for     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "She asked her parents for help."  ],
+	[ "To fight/argue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I argued with my brother about our Nintendo Switch."  ],
+	[ "To make up    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "We made up after our fight."  ],
 
 ];
 var week4 = [
-	[ "To thank  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. (XXXXXXXXXX)"  ],
-	[ "To get along with      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX."  ],
-	[ "To remenber  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. (XXXXXXXXXX)"  ],
-	[ "TO forget     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. (XXXXXXXXXX)"  ],
-	[ "Argument &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. (XXXXXXXXXX)"  ],
-	[ "Experiment    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "XXXXXXXXXX. ()"  ],
+	[ "To thank  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "He thanked me for the birthday present."  ],
+	[ "To get along with      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I don't get along with him. We always argue."  ],
+	[ "To remenber  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I can't remember what I did last week."  ],
+	[ "TO forget     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I forgot my umbrella at home."  ],
+	[ "Argument &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I had an argument with my parents about money."  ],
+	[ "Experiment    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My trip to Bali was a really nice experience."  ],
 
 ];
 
