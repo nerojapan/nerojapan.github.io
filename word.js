@@ -94,7 +94,7 @@ var week4 = [
 	[ "To remenber  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I can't remember what I did last week."  ],
 	[ "To forget     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I forgot my umbrella at home."  ],
 	[ "Argument &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I had an argument with my parents about money."  ],
-	[ "Experiment    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My trip to Bali was a really nice experience."  ],
+	[ "Experience    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My trip to Bali was a really nice experience."  ],
 
 ];
 
