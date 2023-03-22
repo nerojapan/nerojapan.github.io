@@ -92,7 +92,7 @@ var week4 = [
 	[ "To thank  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "He thanked me for the birthday present."  ],
 	[ "To get along with      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I don't get along with him. We always argue."  ],
 	[ "To remenber  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I can't remember what I did last week."  ],
-	[ "TO forget     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I forgot my umbrella at home."  ],
+	[ "To forget     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I forgot my umbrella at home."  ],
 	[ "Argument &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I had an argument with my parents about money."  ],
 	[ "Experiment    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My trip to Bali was a really nice experience."  ],
 

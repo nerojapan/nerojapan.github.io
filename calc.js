@@ -20,6 +20,8 @@ let num1 = 0;
 let numAnswer = 0;
 let status = 0;
 
+let words = week4;
+
 // ------------------------------------------------------------------------
 //    描画更新系処理
 // ------------------------------------------------------------------------
@@ -59,7 +61,7 @@ function get_test2(index)
     var max = 0;
 	var retStr;
   if ( status == 0 ) {
-    max = week3.length;
+    max = words.length;
   } else {
     max = arrayTest4.length;
 	}
@@ -71,7 +73,7 @@ function get_test2(index)
 
 
   if ( status == 0 ) {
-    retStr =  "&nbsp;&nbsp;"+week3[num1][0];
+    retStr =  "&nbsp;&nbsp;"+words[num1][0];
   } else {
     retStr = "&nbsp;&nbsp;"+arrayTest4[num1][0];
 	}
@@ -88,7 +90,7 @@ function get_test2(index)
 function get_ans2(num){
 //    var str = `x = ${ arrayTest[num]}`;
   if ( status == 0 ) {
-	return "&nbsp;&nbsp;"+week3[numAnswer][1];
+	return "&nbsp;&nbsp;"+words[numAnswer][1];
   } else {
 	return "&nbsp;&nbsp;"+arrayTest4[numAnswer][1];
 	}
