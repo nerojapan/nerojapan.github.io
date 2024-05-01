@@ -88,17 +88,25 @@ var week3 = [
 	[ "To make up    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "We made up after our fight."  ],
 
 ];
+//var week4 = [
+//	[ "To thank  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "He thanked me for the birthday present."  ],
+//	[ "To get along with      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I don't get along with him. We always argue."  ],
+//	[ "To remenber  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I can't remember what I did last week."  ],
+//	[ "To forget     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I forgot my umbrella at home."  ],
+//	[ "Argument &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I had an argument with my parents about money."  ],
+//	[ "Experience    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My trip to Bali was a really nice experience."  ],
+//];
+
+
 var week4 = [
-	[ "To thank  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "He thanked me for the birthday present."  ],
-	[ "To get along with      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I don't get along with him. We always argue."  ],
-	[ "To remenber  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I can't remember what I did last week."  ],
-	[ "To forget     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I forgot my umbrella at home."  ],
-	[ "Argument &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I had an argument with my parents about money."  ],
-	[ "Experience    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "My trip to Bali was a really nice experience."  ],
+	[ "Nest  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I saw a robin prepaaring its nest."  ],
+	[ "Hatch      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The eggs are about to hatch."  ],
+	[ "Hatching  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The hatching still can't fly yet."  ],
+	[ "Chirp     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Every morning, I hear the birds charping."  ],
+	[ "Buzz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The cicadas never stop buzzing."  ],
+	[ "Fragrance    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I love fragrance of fresh flowers."  ],
 
 ];
-
-
 
 
 
