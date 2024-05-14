@@ -68,7 +68,7 @@ function get_test2(index)
 
 	// 単語の配列のlenの中から、ランダムな数字を出す
 	// その数字を覚えておく
-//    num1= Math.floor(Math.random() * (max - min) + min);
+    num1= Math.floor(Math.random() * (max - min) + min);
 
 
 
