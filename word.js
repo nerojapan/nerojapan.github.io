@@ -98,16 +98,24 @@ var week3 = [
 //];
 
 
+//var week4 = [
+//	[ "Nest  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I saw a robin prepaaring its nest."  ],
+//	[ "Hatch      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The eggs are about to hatch."  ],
+//	[ "Hatching  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The hatching still can't fly yet."  ],
+//	[ "Chirp     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Every morning, I hear the birds charping."  ],
+//	[ "Buzz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The cicadas never stop buzzing."  ],
+//	[ "Fragrance    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I love fragrance of fresh flowers."  ],
+//];
+
 var week4 = [
-	[ "Nest  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I saw a robin prepaaring its nest."  ],
-	[ "Hatch      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The eggs are about to hatch."  ],
-	[ "Hatching  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The hatching still can't fly yet."  ],
-	[ "Chirp     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Every morning, I hear the birds charping."  ],
-	[ "Buzz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The cicadas never stop buzzing."  ],
-	[ "Fragrance    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I love fragrance of fresh flowers."  ],
+	[ "Customs  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Sometimes going through customs takes a long time."  ],
+	[ "Identification      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Do you have another form of ID?."  ],
+	[ "One-way  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "I'm moving countries, so I bought a one-way ticket."  ],
+	[ "Round-trip     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "We can get discount if we book round-trip tickets."  ],
+	[ "Airfare &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "Airfare keeps getting more expensive."  ],
+	[ "Runway    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" , "The runway is clear for take-off."  ],
 
 ];
-
 
 
 
